@@ -85,7 +85,7 @@ const Login = () => {
    className="btn btn-primary"
    onClick={() => {navigate('/register')}}
    >
-    Register Now
+    Register
    </button>
     
 </form>
