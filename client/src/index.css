@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Playfair+Display&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: 'EB Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+/* Navbar CSS */
+
+.navbar {
+    font-family: 'EB Garamond', serif;
+    font-size: 17px;
+    line-height: 26px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 6px -6px rgb(170, 190, 219);
+    --webkit-box-shadow: 0 8px 6px -6px rgb(81, 98, 152);
+    border-bottom: solid rgb(57, 73, 104) !important;
+  }
+  
+  .nav-link {
+    font-weight: 300 !important;
+  }
+  
+  .active {
+    border-bottom: 2px solid rgb(28, 9, 85);
+  }
+
+  .active:hover{
+    text-decoration-color: brown;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    font-family:'Poppins', sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  /* =============================
+==========footer============= */
+
+.footer {
+    color: white;
+    margin-top: 50px;
+    padding: 20px;
+    background: #324c85; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #9ac7cb,
+      #0c2464
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64a2c6, #01044e);
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  
+  .footer a:hover {
+    color: #030f1a;
+    transition: 0.2s ease-in-out;
+  }
+
+  /* =================================
+======== page not found css ======= */
+.pnf {
+    display: flex;
+    min-height: 65vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pnf-title {
+    font-size: 100px;
+    font-weight: 700;
+  }
+  
+  .pnf-heading {
+    font-weight: normal;
+  }
+  
+  .pnf-btn {
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .pnf-btn:hover {
+    background-color: black;
+    color: white;
+  }
+
+  /* ========================================= */
+/* =========contact us ========= */
+.contactus {
+    margin: 0;
+    padding: 0;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* ==================== */
+  .product-link {
+    text-decoration: none !important;
+    color: black !important;
+  }
+  
+  .cat-btn {
+    padding: 40px 0px;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  .cat-btn:hover {
+    background-color: #434343;
+    color: white;
+  }
+  /* ================
+  ====dashboard
+  =================== */
+  
+  .dashboard {
+    margin-top: 100px !important;
+  }
+  
+  .dashboard-menu h4 {
+    background-color: #434343 !important;
+    color: white;
+    padding: 20px 0px;
+  }
+
+  
+  
