@@ -7,12 +7,17 @@ import productRoutes from './routers/productRoutes.js';
 import cors from 'cors';
 import categoryRoutes from './routers/categoryRoutes.js';
 import path from 'path';
+import { fileURLToPath } from 'url'
 
 //configure env
 dotenv.config();
 
 //database config
 connectDB();
+
+//es6 module file
+const __filename= fileURLToPath(import.meta.url);
+const __dirname= path.dirname(__filename);
 
 //rest object
 const app= express()
@@ -31,7 +36,7 @@ app.use('/api/v1/product', productRoutes);
 
 //rest api
 app.use('*', function(req,res){
-       res.sendFile(path.join(__dirname, './client/build/index.html'))
+    res.sendFile(path.join(__dirname, './client/build/index.html'))
 });
 
 //port
