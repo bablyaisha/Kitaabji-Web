@@ -27,7 +27,7 @@ const Layout = ({children, title, description, keywords, author}) => {
 Layout.defaultProps = {
   title: "Kitaabji-Shop Now",
   description: "JEE/NEET books at your doorstep.",
-  keywords: "books,book,JEE,jee,NEET,neet,JEE Books, NEET books,jee books,neet books",
+  keywords: "kitaabji,KITAABJI,Kitaabji,books,book,JEE,jee,NEET,neet,JEE Books, NEET books,jee books,neet books",
   author: "Kitaabji",
 };
 
